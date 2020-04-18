@@ -1,0 +1,42 @@
+{
+    "editor.renderWhitespace": "all",
+    "workbench.editor.enablePreview":false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "'Consolas', 'Monaco', 'Source Code Pro Medium'",
+    "workbench.colorCustomizations": {
+        // "activityBar.foreground": "#ec83af",
+        "activityBarBadge.background": "#2794dd",
+        // "activityBarBadge.foreground": "#ec83af"
+        // "activityBar.background": "#68e9d3"
+        // "activityBar.activeBackground": "#ffffff"
+    },
+    "editor.tokenColorCustomizations": {
+        "keywords": "#db94c0",
+        "types": "#6ed3ca",
+        "functions": "#dfc87f",
+        "numbers": "#c3a1eb",
+        "strings": "#e49f77",
+        "comments": "#8382ce",
+        "variables": "#8fe1ff",
+        "textMateRules": [
+            {
+                "scope": "keyword.other.unit",
+                "settings": {
+                    "foreground": "#c3a1eb"
+                }
+            },
+            {
+                "scope": "storage.type",
+                "settings": {
+                    "foreground": "#569CD6",
+                }
+            }
+        ],
+    },
+    "window.zoomLevel": 0
+}
